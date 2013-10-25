@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Workshop Open Data - Social Community Day 2013</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Elmar Burke">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h3>Session: Open Data</h3>
+					<h1>Open. Data. Nutzer.</h1>
+					<p>
+						<small><a href="http://elmarburke.de">Elmar Burke</a> / <a href="http://twitter.com/elmarburke">@elmarburke</a></small>
+					</p>
+				</section>
+
+				<section>
+					<section>
+						<h2>Who's Talking?</h2>
+						<img src="images/b33c22e241fe578ed244f5f68b28ab26.jpg" alt="me" style="float:left">
+						<p>Elmar Burke</p>
+						<p>
+							<a href="mailto:hallo@elmarburke.de">hallo@elmarburke.de</a> / <a href="http://twitter.com/elmarburke">@elmarburke</a>
+						</p>
+						<br>
+						<p>
+							<span class="fragment">Web-Dude</span><span class="fragment">, Open Data Junkie</span><span class="fragment"> and Open Government Enthusiast</span>
+						</p>
+						<br>
+						<p class="fragment">
+							Study eGovernment at <a href="http://hsrw.eu">HSRW</a> in Kamp&#8209;Lintfort
+						</p>
+					</section>
+					<section>
+						<img src="images/Moers - Offene Daten Moers 2013-10-13 21-18-33.png" alt="Moers   Offene Daten Moers 2013 10 13 21 18 33">
+						<aside class="notes" data-markdown>
+							# Projekt *Offene Daten Moers*
+							
+							Die Stadt Moers am Niederrhein ist eine innovative Kommune. Seit **JAHR** gibt es sowohl eine Facebook-Seite als auch einen Twitteraccount der Verwaltung. Claus Arndt [@derarndt](http://twitter.com/derarndt), Fachdienstleiter des *FD 3.5 E-Government und interne Dienste*, ist der Innovationstreiber der Verwaltung. Unter seiner Federführung startete das Projekt Offene Daten Moers als Praxisprojekt im WS 2012/13 an der Hochschule Rhein-Waal.
+							
+							Beschluss des Verwaltungsvorstandes: 15. Februar 2013
+							
+							Start des Portals: 29. Februar 2013
+							
+							#openSpurt
+							
+							Umgesetzt wurde es mit dem vorhandenem Redaktionssystem (E-Suit des KRZN). Es gab keine Anpassungen der Software, es wurde nur vorhandenes genutzt.
+							
+							Aktuell gibt es Planungen die Platform auf die Software ckan umzustellen.
+						</aside>
+					</section>
+					<section>
+						<img src="images/openruhr.de.png" alt="Openruhr.De.Jpg">
+						<aside class="notes" data-markdown>
+							OpenRuhr ist eine NGO mit dem Ziel offene Daten im Ruhrgebiet zu fördern. Nach einem Neustart des Projektes 2013 entstand OpenRuhr:RIS als Kopie von Offenes Köln für die Städte Moers, Duisburg und Bochum. Weitere Städte sind in Planung.
+						</aside>
+					</section>
+					<section>
+						<img src="images/OpenStreetMap 2013-10-13 21-25-32.png" alt="OpenStreetMap 2013 10 13 21 25 32">
+						<aside class="notes" data-markdown>
+							OpenStreetMap ist eine (Straßen-)Karte nach dem Wikipedia-Prinzip. OSM startete 2007 als Geodatenbank. Etwa 2010 waren im Ruhrgebiet die Straßen komplett erfasst. Aktuelle Aufgabe für die deutsche Community: Hausnummern.
+					</section>
+						
+				</section>
+
+				<section>
+					<h2>Who Are You?</h2>
+					<aside class="notes" data-markdown>
+						* Wer findet Open Data toll? / doof?
+						* Wer kennt Open Data
+					</aside>
+				</section>
+				
+				<section data-markdown>
+					# Agenda
+					
+					1. Was ist Open
+					2. Was ist Data
+					3. Wer macht Open Data?
+					4. Warum Open Data?
+					5. Wer braucht Open Data?
+				</section>
+				
+				<section>
+					<section>
+						<h1>What Is Open?</h1>
+					</section>
+					
+					<section>
+						<h1>Licence</h1>
+						<aside class="notes" data-markdown>
+							* CC-*
+							* In den Niederlanden wird eine CC-0 Lizenz empfohlen
+							* Keine Lizenzdiskussion
+							* (Datenlizenz Deutschland Namensnennung)[https://github.com/fraunhoferfokus/ogd-metadata/blob/master/lizenzen/BMI/Datenlizenz_Deutschland_Namensnennung_V1.md]
+						</aside>
+					</section>
+					
+					<section>
+						<h3>Datenlizenz Deutschland – Namensnennung</h3>
+						<div style="font-size: 75%">
+							<p>Jede Nutzung mit Quellenvermerk ist zulässig.</p>
+						
+							<p>Veränderungen, Bearbeitungen, neue Gestaltungen oder sonstige Abwandlungen sind mit einem Veränderungshinweis im Quellenvermerk zu versehen oder der Quellenvermerk ist zu löschen, sofern die datenhaltende Stelle dies verlangt.</p>
+						
+							<p>Der Bereitsteller stellt die Daten, Inhalte und Dienste mit der zur Erfüllung seiner öffentlichen Aufgaben erforderlichen Sorgfalt zur Verfügung. Für die Daten, Inhalte und Dienste gelten in Bezug auf deren Verfügbarkeit und deren Qualität die durch den Bereitsteller in den Metadaten oder sonstigen Beschreibungen zugewiesenen Spezifikationen und Qualitätsmerkmale. Der Bereitsteller übernimmt jedoch keine Gewähr für die Richtigkeit und Vollständigkeit der Daten und Inhalte sowie die dauerhafte Verfügbarkeit der Dienste. Davon ausgenommen sind Schadensersatzansprüche aufgrund einer Verletzung des Lebens, körperliche Unversehrtheit oder Gesundheit. Ebenfalls ausgenommen sind Schäden, die auf Vorsatz oder grober Fahrlässigkeit beruhen.</p>
+						</div>
+						<aside class="notes">
+							Nutzungsbestimmungen für Datensätze - Empfehlung der Unterarbeitsgruppe Recht der Bund-Länder-Arbeitsgruppe Open Government
+						</aside>
+					</section>
+					
+					<section>
+						<h3>Creative Commons</h3>
+						<p><strong>Namensnennung</strong> (BY)</p>
+						<p><strong>Weitergabe unter gleichen Bedingungen</strong> (SA)</p>
+						<p><strong>Keine Bearbeitung</strong> (ND)</p>
+						<p><strong>Nicht kommerziell</strong> (NC)</p>
+						<p class="fragment"><strong>Public Domain</strong> (CC0)</p>
+					</section>
+					
+					<section>
+						<h1>Usefulness</h1>
+						<aside class="notes" data-markdown>
+							Daten müssen in einem nutzbarem Format vorliegen.
+						</aside>
+					</section>
+				</section> 
+
+				<section>
+					<section>
+						<h2>What Is Data?</h2>
+						<img src="images/800px-Open_Data_stickers.jpg" alt="Open Data Stickers">
+					</section>
+				
+					<section data-background="black">
+						<figure>
+							<img src="images/The.Matrix.glmatrix.3.png" alt="The.Matrix.Glmatrix.3" style="border: none;margin:0;">
+							<figcaption>&copy; Jamie Zawinski</figcaption>
+							<aside class="notes" data-markdown>
+								Die Matrix, nein, das sind keine Daten.
+							</aside>
+					</section>
+					
+					<section data-background="red">
+						<h1>NEIN.</h1>
+					</section>
+					
+					<section data-background="black">
+						<img src="images/WMS_-3308873914917960182.png" width="1203" height="1112" alt="WMS 3308873914917960182" style="border: none;">
+						<aside class="notes" data-markdown>
+							Aus dem Tranchot 1801-1828 Atlas. Daten Ja, nicht umbedingt brauchbar. Nach deutschem Urheberschutzgesetzt sogar Public Domain.
+						</aside>
+					</section>
+					
+					<section data-background="green">
+						<h1>YES.</h1>
+					</section>
+					
+					<section data-background="black">
+						<figure>
+							<img src="images/xml-haushalt.png" alt="Xml Haushalt" style="border: none;margin:0;">
+						</figure>
+						<aside class="notes" data-markdown>
+							Aus dem <a href="http://www.moers.de/C1257221003C7526/html/B2DEA28118BBFC88C1257B0A0056F933?opendocument">Haushalts-XML</a> der Stadt Moers. 
+					</section>
+					
+					<section data-background="green">
+						<h1>YES.</h1>
+					</section>
+					
+					<section>
+						<h1>Und sonst?</h1>
+						<p class="fragment">Bewohnerparkzonen</p>
+						<p class="fragment">Papierverbrauch</p>
+						<p class="fragment">...</p>
+						<p class="fragment">...</p>
+						<p class="fragment">...</p>
+					</section>
+				</section>
+				
+				<section>
+					<section>
+						<h1>Doch wer macht die Daten?</h1>
+					</section>
+					
+					<section data-background="http://farm9.staticflickr.com/8067/8287346116_6ba4fc1838_b.jpg">
+						<h2>Verwaltungen</h2>
+						<br>
+						<footer style="max-height: .75em; font-size: .75em;">Hintergrundbild: <img src="http://i.creativecommons.org/l/by-nc-sa/2.0/88x31.png" style="border:0;margin:0;"> <a href="http://www.flickr.com/photos/stadtmoers/">Stadt Moers</a></footer>
+					</section>
+					
+					<section data-background="images/7874884142_731d65190c_h.jpg">
+						<h2>Verkehrsbetriebe und -verbünde</h2>
+						<footer><img src="http://i.creativecommons.org/l/by-sa/2.0/88x31.png" style="border:0;margin:0;"> <a href="http://www.flickr.com/photos/schwenke/">Axel Schwenke</a></footer>
+					</section>
+				
+					<section data-background="images/362937046_c2b6b8841e_o.jpg">
+						<h2>YOU!</h2>
+						<p class="fragment">With the tweets you send</p>
+						<p class="fragment">With pictures you take</p>
+						<p class="fragment">And with blogposts you publish</p>
+						<footer><img src="http://i.creativecommons.org/l/by-sa/2.0/88x31.png" style="border:0;margin:0;"> <a href="http://www.flickr.com/photos/thisparticulargreg/">ThisParticularGreg</a></footer>
+					</section>
+					
+					<section data-markdown>
+						## Und wer genau?
+						
+						[Stadt Bonn](//www.bonn.de/rat_verwaltung_buergerdienste/aktuelles/open_data/01727/index.html?lang=de)
+						
+						[Stadt Köln](//www.offenedaten-koeln.de/)
+						
+						[Stadt Münster](//www.govdata.de/)
+						
+						[Stadt Moers](//offenedaten.moers.de/)
+						
+						[Hansestadt Rostock](//www.opendata-hro.de/)
+						
+						[Stadt Ulm](//daten.ulm.de/)
+						
+						[Gemeinde Wennigsen](//www.govdata.de/)
+						
+						Länder Berlin, Baden-Württemberg, Bayern, Hamburg, Bremen und Rheinland Pfalz
+						
+						<aside class="notes">
+							Wennigsen ist eine 14k Einwohner-Gemeinde in der  Region Hannover
+						</aside>
+					</section>
+				</section>
+				
+				<section>
+					<section>
+						<h1>Und wer nutzt Daten?</h1>
+					</section>
+					<section>
+						<h2>You?</h2>
+					</section>
+					<section>
+						<h2>Who else?</h2>
+						<p class="fragment">Bürger*innen</p>
+						<p class="fragment">Unternehmen</p>
+						<p class="fragment">Terrorist*innen<span class="fragment">???</span></p>
+					</section>
+				</section>
+				
+				<section>
+					<section>
+						<h1>Let's get hands dirty</h1>
+					</section>
+					
+					<section>
+						<h2>Workgroups</h2>
+						<ol>
+							<li class="fragment">Warum brauchen wir Open Data?</li>
+							<li class="fragment">Wie können wir <strong>allen</strong> Bürger*innen Open Data zugänglich machen?</li>
+							<li class="fragment">Brauchen wir Datenmakler?</li>
+						</ol>
+					</section>
+					
+				</section>
+				
+				<section>
+					<h1>Thank you and Tschüss!</h1>
+				</section>
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: false,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
